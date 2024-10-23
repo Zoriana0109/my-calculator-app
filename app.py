@@ -15,14 +15,6 @@ def divide(x, y):
     return x / y
 
 
-<<<<<<< HEAD
-=======
-def divide(x, y):
-    if y == 0:
-        return "Error: Division by zero"
-    return x / y
-
->>>>>>> feat-div
 parser = argparse.ArgumentParser(description="Simple Calculator")
 
 parser.add_argument("operation", choices=["add", "subtract"], help="Operation to perform")
@@ -37,10 +29,7 @@ elif args.operation == "subtract":
     result = subtract(args.x, args.y)
 elif args.operation == "multiply":
     result = multiply(args.x, args.y)
-<<<<<<< HEAD
-=======
 elif args.operation == "divide":
     result = divide(args.x, args.y)
->>>>>>> feat-div
 
-print(f"Result: {result}")
+print(f"Result_: {result}")
